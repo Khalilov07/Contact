@@ -1,0 +1,40 @@
+.addContact {
+  gap: 20px;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.addContact input {
+  border: none;
+  padding: 10px;
+  outline: none;
+  font-size: 15px;
+  border-bottom: 1px solid black;
+}
+
+.addContact input:focus {
+  border: none;
+  border: 1px solid black;
+}
+
+.addContact input::placeholder {
+  color: black;
+}
+
+.addContact button {
+  border: none;
+  font-size: 17px;
+  background: none;
+  padding: 5px 15px;
+  border: 1px solid black;
+}
+
+.content input {
+  border: none;
+  padding: 10px;
+  outline: none;
+  font-size: 15px;
+  border-bottom: 1px solid black;
+}

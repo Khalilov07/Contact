@@ -1,0 +1,21 @@
+nav {
+    height: 80px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+li a {
+    color: black;
+    font-size: 22px;
+    transition: 200ms;
+    text-decoration: none;
+}
+
+li a:hover {
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+}
